@@ -27,6 +27,9 @@
       button{
         background-color: white;
         border: 0px;
+        font-size::20px;
+        width: 130px;
+        height: 50px;
       }
       .everything{
         position: absolute;
@@ -40,31 +43,58 @@
         position: absolute;
         top: 250px;
         right:50px;
+        width: 450px;
       }
       .bottom_{
         position: absolute;
-        top: 500px;
+        top: 550px;
         right:50px;
+        width: 450px;
+      }
+      p{
+        font-size: 20px;
+      }
+      table{
+        text-align: center;
+      }
+      td{
+        text-align: center;
+      }
+      .c{
+        width: 100px;
+        height: 100px;
+      }
+      .d{
+        width: 300px;
       }
     </style>
   </head>
   <body>
-    <button><img class= "logo" src="./logo.png" alt="로고"/></button>
-    <button><img class = "logo2" src="./logo2.png" alt="로고"/></button>
+    <a href="./mian.html"><img class= "logo" src="./logo.png" alt="로고"></a>
+    <a href="./mian.html"><img class = "logo2" src="./logo2.png" alt="로고"></a>
     <div class ="menu">
-      <button><img src="./학습하기.png"/></button>
-      <button><img src="./모니터링.png"/></button>
-      <button><img src="./학습툴.png"/></button>
-      <button><img src="./마이페이지.png"/></button>
+      <button class = "b"><img src="./학습하기.png"/></button>
+      <button class = "b"><img src="./모니터링.png"/></button>
+      <button class = "b"><img src="./학습툴.png"/></button>
+      <button class = "b"><img src="./마이페이지.png"/></button>
     </div>
     <div class="everything">
       <img src="./everything.png"/>
     </div>
     <div class="top_">
-      <button>자유게시판</button>
-      <button>공지사항</button>
-      <button>Q&A</button>
+      <button class="a"><p>자유게시판</p></button>
+      <button class="a"><p>공지사항</p></button>
+      <button class="a"><p>Q&A</p></button>
       <table>
+        <thead>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+        </thead>
         <tbody>
           <tr>
             <td>[12-27]아름다운 글귀 우정 영어 글귀</td>
@@ -94,25 +124,29 @@
       </table>
     </div>
     <div class="bottom_">
-      <button>FINAF</button>
-      <button>공지사항</button>
-      <button>Q&A</button>
+      <button class="a"><p>FINAF</p></button>
+      <button class="a"><p>공지사항</p></button>
+      <button class="a"><p>Q&A</p></button>
       <table>
+        <thead>
+          <tr class="d"></tr>
+          <tr class="d"></tr>
+        </thead>
         <tbody>
           <tr>
             <td>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
             </td>
           </tr>
           <tr>
             <td>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
-              <img src = "" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
+              <img class="c" src = "./default.jpg" alt="그림 1"/>
             </td>
           </tr>
         </tbody>
